@@ -2,3 +2,4 @@ proprietary/vendor/firmware/stable_modem/modem.bin filter=lfs diff=lfs merge=lfs
 proprietary/vendor/lib64/libedgetpu_tflite_compiler.so filter=lfs diff=lfs merge=lfs -text
 proprietary/vendor/apex/com.google.pixel.camera.hal.apex filter=lfs diff=lfs merge=lfs -text
 radio/modem.img filter=lfs diff=lfs merge=lfs -text
+proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel2021/DevicePersonalizationPrebuiltPixel2021.apk filter=lfs diff=lfs merge=lfs -text

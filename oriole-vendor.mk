@@ -74,27 +74,32 @@ PRODUCT_PACKAGES += \
     AppDirectedSMSService \
     CarrierSettings \
     CarrierWifi \
+    CbrsNetworkMonitor \
     ConnMO \
     DCMO \
     DMService \
-    DeviceIntelligenceNetworkPrebuilt \
-    DevicePersonalizationPrebuiltPixel2021 \
     DiagMon \
     EuiccGoogle \
+    GCS \
     HardwareInfo \
     HotwordEnrollmentOKGoogleFUSION \
     HotwordEnrollmentXGoogleFUSION \
+    ImsServiceEntitlement \
+    OdadPrebuilt \
     OemDmTrigger \
     PixelCameraServicesOriole \
+    SSRestartDetector \
     TetheringEntitlement \
     WfcActivation \
     OemRilHookService \
+    RepairMode \
     CarrierSetup \
     ConnectivityThermalPowerManager \
     EuiccGoogleOverlay \
     EuiccSupportPixel \
     EuiccSupportPixelPermissions \
     HbmSVManager \
+    Iwlan \
     LLKAgent \
     MyVerizonServices \
     OemRilService \
@@ -103,6 +108,8 @@ PRODUCT_PACKAGES += \
     ShannonIms \
     ShannonQualifiedNetworksService \
     ShannonRcs \
+    TelephonyGoogle \
+    UvExposureReporter \
     grilservice \
     libhwinfo \
     RadioConfigLib \

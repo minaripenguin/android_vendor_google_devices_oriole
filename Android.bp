@@ -53,6 +53,18 @@ android_app_import {
 }
 
 android_app_import {
+	name: "CbrsNetworkMonitor",
+	owner: "google",
+	apk: "proprietary/product/priv-app/CbrsNetworkMonitor/CbrsNetworkMonitor.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
 	name: "ConnMO",
 	owner: "google",
 	apk: "proprietary/product/priv-app/ConnMO/ConnMO.apk",
@@ -89,18 +101,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "DevicePersonalizationPrebuiltPixel2021",
-	owner: "google",
-	apk: "proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel2021/DevicePersonalizationPrebuiltPixel2021.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
 	name: "DiagMon",
 	owner: "google",
 	apk: "proprietary/product/priv-app/DiagMon/DiagMon.apk",
@@ -116,6 +116,18 @@ android_app_import {
 	name: "EuiccGoogle",
 	owner: "google",
 	apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "GCS",
+	owner: "google",
+	apk: "proprietary/product/priv-app/GCS/GCS.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -161,6 +173,30 @@ android_app_import {
 }
 
 android_app_import {
+	name: "ImsServiceEntitlement",
+	owner: "google",
+	apk: "proprietary/product/priv-app/ImsServiceEntitlement/ImsServiceEntitlement.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "OdadPrebuilt",
+	owner: "google",
+	apk: "proprietary/product/priv-app/OdadPrebuilt/OdadPrebuilt.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
 	name: "OemDmTrigger",
 	owner: "google",
 	apk: "proprietary/product/priv-app/OemDmTrigger/OemDmTrigger.apk",
@@ -177,6 +213,18 @@ android_app_import {
 	owner: "google",
 	apk: "proprietary/product/priv-app/PixelCameraServicesOriole/PixelCameraServicesOriole.apk",
 	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "SSRestartDetector",
+	owner: "google",
+	apk: "proprietary/product/priv-app/SSRestartDetector/SSRestartDetector.apk",
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -212,6 +260,17 @@ android_app_import {
 	name: "OemRilHookService",
 	owner: "google",
 	apk: "proprietary/system_ext/app/OemRilHookService/OemRilHookService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "RepairMode",
+	owner: "google",
+	apk: "proprietary/system_ext/app/RepairMode/RepairMode.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -284,6 +343,18 @@ android_app_import {
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/HbmSVManager/HbmSVManager.apk",
 	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "Iwlan",
+	owner: "google",
+	apk: "proprietary/system_ext/priv-app/Iwlan/Iwlan.apk",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -379,6 +450,30 @@ android_app_import {
 	name: "ShannonRcs",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "TelephonyGoogle",
+	owner: "google",
+	apk: "proprietary/system_ext/priv-app/TelephonyGoogle/TelephonyGoogle.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "UvExposureReporter",
+	owner: "google",
+	apk: "proprietary/system_ext/priv-app/UvExposureReporter/UvExposureReporter.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,

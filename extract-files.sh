@@ -15,9 +15,9 @@ VENDOR=google
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
-ANDROID_ROOT="${MY_DIR}/../.."
+export ANDROID_ROOT=$(pwd)
 
-HELPER="/mnt/nvme0n1p5/home/minaripenguin/Desktop/ROM/tools/extract-utils/extract_utils.sh"
+HELPER="${ANDROID_ROOT}/tools/extract-utils/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
@@ -25,7 +25,7 @@ fi
 source "${HELPER}"
 
 # Default to sanitizing the vendor folder before extraction
-CLEAN_VENDOR=false
+CLEAN_VENDOR=true
 
 KANG=
 SECTION=

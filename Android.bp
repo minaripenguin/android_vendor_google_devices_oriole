@@ -95,19 +95,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "DeviceIntelligenceNetworkPrebuilt",
-	owner: "google",
-	apk: "proprietary/product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk",
-	preprocessed: true,
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
 	name: "DevicePersonalizationPrebuiltPixel2021",
 	owner: "google",
 	apk: "proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel2021/DevicePersonalizationPrebuiltPixel2021.apk",
@@ -401,45 +388,6 @@ android_app_import {
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/RilConfigService/RilConfigService.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "ShannonIms",
-	owner: "google",
-	apk: "proprietary/system_ext/priv-app/ShannonIms/ShannonIms.apk",
-	preprocessed: true,
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "ShannonQualifiedNetworksService",
-	owner: "google",
-	apk: "proprietary/system_ext/priv-app/ShannonQualifiedNetworksService/ShannonQualifiedNetworksService.apk",
-	preprocessed: true,
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "ShannonRcs",
-	owner: "google",
-	apk: "proprietary/system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
-	preprocessed: true,
-	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},

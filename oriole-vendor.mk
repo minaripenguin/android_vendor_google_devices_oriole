@@ -84,7 +84,6 @@ PRODUCT_PACKAGES += \
     ConnMO \
     DCMO \
     DMService \
-    DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2021 \
     DiagMon \
     EuiccGoogle \
@@ -109,9 +108,6 @@ PRODUCT_PACKAGES += \
     MyVerizonServices \
     OemRilService \
     RilConfigService \
-    ShannonIms \
-    ShannonQualifiedNetworksService \
-    ShannonRcs \
     TelephonyGoogle \
     grilservice \
     libhwinfo \
